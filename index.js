@@ -96,4 +96,12 @@ function factorisV2 (liste){
 
 factorisV2(8)
 
+// 8 - Somme des carrés
 
+total = 0
+
+for (i=5; i<=10; i++){
+    total=total+i*i    
+}
+
+console.log(total);
