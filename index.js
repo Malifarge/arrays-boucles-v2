@@ -117,3 +117,16 @@ for (i=100; i<= 1000; i++){
 }
 
 console.log(array7.length);
+
+// 10 - Chanceux
+
+total = 0
+
+for (i=0; i<20;i++){
+    let de6 = Math.floor(Math.random()*6)+1
+    if (de6>=5){
+        total = total + de6
+    }
+}
+
+console.log(total);
