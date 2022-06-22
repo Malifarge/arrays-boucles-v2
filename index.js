@@ -173,3 +173,19 @@ for (i=0; i <=1000; i++){
         console.log(`${i} est un nombre d'Amstrong`);
     }
 }
+
+// 15 - Amstrong Number générique
+
+for (i=0; i <=10000; i++){
+    let Amstgsting= i.toString()
+    let arrayAmstg = Amstgsting.split("")
+    total=0
+    for (j=0; j<arrayAmstg.length; j++){
+        let a = arrayAmstg[j]
+        a = Number (a) **arrayAmstg.length
+        total = total + a
+    }
+    if (total === i){
+        console.log(`${i} est un nombre d'Amstrong`);
+    }
+}
