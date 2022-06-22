@@ -105,3 +105,15 @@ for (i=5; i<=10; i++){
 }
 
 console.log(total);
+
+// 9 - Comptons
+
+const array7 = []
+
+for (i=100; i<= 1000; i++){
+    if(i%7===0){
+        array7.push(i)
+    }
+}
+
+console.log(array7.length);
