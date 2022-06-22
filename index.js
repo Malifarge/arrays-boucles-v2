@@ -81,3 +81,19 @@ console.log(total);
 }
 
 factoris(7)
+
+// 7 - Factorielle v2
+
+function factorisV2 (liste){
+    for (i=0 ; i<=liste; i++){
+        total = 1
+        for (j=1; j <= i; j++){
+            total=total*j
+            }
+            console.log(total);
+    }
+}
+
+factorisV2(8)
+
+
