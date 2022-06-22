@@ -48,11 +48,19 @@ console.log(roots);
 // 4 - Table de multiplication
 
 function Tablemultiple (numberTable){
-    let resultat = 0
     for (i=0; i <=10; i++){
-    resultat = numberTable*i
-    console.log(`${numberTable} X ${i} = ${resultat} `);
+    console.log(`${numberTable} X ${i} = ${numberTable*i} `);
     }
 }
 
 Tablemultiple (3)
+
+// 5 - Plusieurs tables de multiplication
+
+for (i=0; i<=10; i++){
+    console.log(i);
+    for (j=0; j<=10; j++){
+        console.log(`${i} X ${j} = ${i*j} `);
+    }
+    console.log("");
+}
