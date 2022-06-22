@@ -158,3 +158,18 @@ console.log(total);
 // 5
 // -4
 
+// 14 - Amstrong Number
+
+for (i=0; i <=1000; i++){
+    let Amststing= i.toString()
+    let arrayAmst = Amststing.split("")
+    total=0
+    for (j=0; j<arrayAmst.length; j++){
+        let a = arrayAmst[j]
+        a = Number (a) **3
+        total = total + a
+    }
+    if (total === i){
+        console.log(`${i} est un nombre d'Amstrong`);
+    }
+}
