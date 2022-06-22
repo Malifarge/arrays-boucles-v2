@@ -47,10 +47,12 @@ console.log(roots);
 
 // 4 - Table de multiplication
 
-const numberTable = 3
-let resultat = 0
-
-for (i=0; i <=10; i++){
+function Tablemultiple (numberTable){
+    let resultat = 0
+    for (i=0; i <=10; i++){
     resultat = numberTable*i
     console.log(`${numberTable} X ${i} = ${resultat} `);
+    }
 }
+
+Tablemultiple (3)
