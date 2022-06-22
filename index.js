@@ -64,3 +64,20 @@ for (i=0; i<=10; i++){
     }
     console.log("");
 }
+
+// 6 - Factorielle v1
+
+
+function factoris (numberfact){
+    
+    let total = 1
+
+    for (i=1; i <= numberfact; i++){
+    total=total*i
+    }
+
+console.log(total);
+
+}
+
+factoris(7)
