@@ -130,3 +130,11 @@ for (i=0; i<20;i++){
 }
 
 console.log(total);
+
+// 11 - Des boites
+
+// 10
+// 34
+// 17
+// 30
+// 14
